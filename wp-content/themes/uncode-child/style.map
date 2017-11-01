@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "sass/style.css",
+	"sources": [
+		"sass/style.scss",
+		"sass/_variables.scss",
+		"sass/_header.scss",
+		"sass/_footer.scss"
+	],
+	"sourcesContent": [
+		"/*\nTheme Name: Kiki Queens\nTheme URI: http://www.brandontrumfio.com\nDescription: Customized theme for the Kiki Queens\nVersion: 4.4.8\nAuthor: Brandon Trumfio\nAuthor URI: http://www.brandontrumfio.com\nTemplate: Uncode\n*/\n\n@import 'variables';\n\n@import 'header';\n\n@import 'footer';\n",
+		"// Holds all the site variables\n\n//Colors\n$black: #000;\n$white: #fff;\n",
+		"",
+		""
+	],
+	"mappings": "AAAA;;;;;;;;EAQE",
+	"names": []
+}
