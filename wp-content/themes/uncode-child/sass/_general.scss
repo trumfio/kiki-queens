@@ -1,0 +1,18 @@
+body {
+  margin: 45px 60px 40px !important;
+
+  @media screen and (max-width: 959px) {
+    margin: 30px 50px !important;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin: 10px 30px !important;
+  }
+}
+
+.menu-wrapper .row-menu .row-menu-inner,
+.header-wrapper .header-content-inner,
+.main-container .row-container .row-parent {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}

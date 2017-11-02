@@ -2,10 +2,76 @@
 Theme Name: Kiki Queens
 Theme URI: http://www.brandontrumfio.com
 Description: Customized theme for the Kiki Queens
-Version: 4.4.8
+Version: 1.0
 Author: Brandon Trumfio
 Author URI: http://www.brandontrumfio.com
 Template: Uncode
 */
+body {
+  margin: 45px 60px 40px !important;
+}
 
-/*# sourceMappingURL=../style.map */
+@media screen and (max-width: 959px) {
+  body {
+    margin: 30px 50px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin: 10px 30px !important;
+  }
+}
+
+.menu-wrapper .row-menu .row-menu-inner,
+.header-wrapper .header-content-inner,
+.main-container .row-container .row-parent {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.mobile-menu-button-dark .lines,
+.mobile-menu-button-dark .lines:before,
+.mobile-menu-button-dark .lines:after,
+.lines-button.x2.close .lines:before,
+.lines-button.x2.close .lines:after {
+  background: #d345c5 !important;
+  width: 25px !important;
+}
+
+.lines {
+  top: -20px !important;
+}
+
+.logo-container {
+  padding: 15px 0 !important;
+}
+
+.style-color-xsdn-bg {
+  background-color: transparent !important;
+}
+
+.menu-container {
+  position: fixed !important;
+  top: 5px !important;
+}
+
+@media screen and (max-width: 959px) {
+  .menu-container {
+    position: fixed !important;
+  }
+}
+
+.row-menu-inner.row-brand {
+  margin-left: -45px !important;
+}
+
+.shrinked .mmb-container {
+  top: 54px;
+}
+
+.header-title {
+  color: #fff !important;
+  margin: 0 -37px -105px;
+  opacity: .85;
+}

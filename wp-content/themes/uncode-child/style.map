@@ -4,15 +4,17 @@
 	"sources": [
 		"sass/style.scss",
 		"sass/_variables.scss",
+		"sass/_general.scss",
 		"sass/_header.scss",
 		"sass/_footer.scss"
 	],
 	"sourcesContent": [
-		"/*\nTheme Name: Kiki Queens\nTheme URI: http://www.brandontrumfio.com\nDescription: Customized theme for the Kiki Queens\nVersion: 4.4.8\nAuthor: Brandon Trumfio\nAuthor URI: http://www.brandontrumfio.com\nTemplate: Uncode\n*/\n\n@import 'variables';\n\n@import 'header';\n\n@import 'footer';\n",
+		"/*\nTheme Name: Kiki Queens\nTheme URI: http://www.brandontrumfio.com\nDescription: Customized theme for the Kiki Queens\nVersion: 1.0\nAuthor: Brandon Trumfio\nAuthor URI: http://www.brandontrumfio.com\nTemplate: Uncode\n*/\n\n@import 'variables';\n\n@import 'general';\n\n@import 'header';\n\n@import 'footer';\n",
 		"// Holds all the site variables\n\n//Colors\n$black: #000;\n$white: #fff;\n",
+		"body {\n  margin: 50px;\n}\n\n.mobile-menu-button-dark .lines,\n.mobile-menu-button-dark .lines:before,\n.mobile-menu-button-dark .lines:after {\n    background: #D345C5 !important;\n}\n\n.lines {\n  top: -20px;\n}\n",
 		"",
 		""
 	],
-	"mappings": "AAAA;;;;;;;;EAQE",
+	"mappings": "AAAA;;;;;;;;EAQE;;AERF,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,IAAK,GACd;;;AAED,AAAyB,wBAAD,CAAC,MAAM;AAC/B,AAA+B,wBAAP,CAAC,MAAM,AAAA,OAAO;AACtC,AAA+B,wBAAP,CAAC,MAAM,AAAA,MAAM,CAAC;EAClC,UAAU,EAAE,kBAAmB,GAClC;;;AAED,AAAA,MAAM,CAAC;EACL,GAAG,EAAE,KAAM,GACZ",
 	"names": []
 }

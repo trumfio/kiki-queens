@@ -1,0 +1,43 @@
+.mobile-menu-button-dark .lines,
+.mobile-menu-button-dark .lines:before,
+.mobile-menu-button-dark .lines:after,
+.lines-button.x2.close .lines:before,
+.lines-button.x2.close .lines:after {
+  background: $magenta !important;
+  width: 25px !important;
+}
+
+.lines {
+  top: -20px !important;
+}
+
+.logo-container {
+  padding: 15px 0 !important;
+}
+
+.style-color-xsdn-bg {
+  background-color: transparent !important;
+}
+
+.menu-container {
+  position: fixed !important;
+  top: 5px !important;
+
+  @media screen and (max-width: 959px) {
+position: fixed !important;
+  }
+}
+
+.row-menu-inner.row-brand {
+  margin-left: -45px !important;
+}
+
+.shrinked .mmb-container {
+  top: 54px;
+}
+
+.header-title {
+  color: $white !important;
+  margin: 0 -37px -105px;
+  opacity: .85;
+}

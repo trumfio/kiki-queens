@@ -5916,9 +5916,6 @@ SmartMenu: Offcanvas
     -o-transition: padding 0.3s linear;
     transition: padding 0.3s linear;
   }
-  .logo-container.shrinked {
-    padding: 18px 18px 18px 18px;
-  }
   header {
     width: 100%;
     z-index: 1000;
@@ -6082,16 +6079,7 @@ SmartMenu: Offcanvas
     transform: none !important;
   }
 }
-@media (max-width: 959px) {
-  .menu-container {
-    position: relative !important;
-    -webkit-transform: none !important;
-    -moz-transform: none !important;
-    -o-transform: none !important;
-    -ms-transform: none !important;
-    transform: none !important;
-  }
-}
+
 .menu-hide.menu-container {
   -webkit-transition: -webkit-transform 0.5s ease-in-out, background-color 0.4s ease-in-out;
   -moz-transition: -moz-transform 0.5s ease-in-out, background-color 0.4s ease-in-out;
@@ -6694,7 +6682,7 @@ body[class*=vmenu-] .vmenu-container .logo-container > *:first-child {
 */
 .mmb-container {
   position: absolute;
-  top: 50%;
+  top: 54px;
   right: 0;
 }
 .mmb-container.mmb-container-overlay {
